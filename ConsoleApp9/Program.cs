@@ -15,8 +15,7 @@ namespace Practica
             Firma.FAdres = "США: Бивертон(Орегон)";
             Firma.FGod = 1964;
             Console.WriteLine($"{Firma.FName}  {Firma.FAdres}  {Firma.FGod}");
-            Firma fir1 = new Firma("Adidas", "GeBruder Dassler Schuhfabrik", 2020);
-            Console.WriteLine($"{Firma.FName}  {Firma.FAdres}  {Firma.FGod}");
+           
             Console.ReadKey();
         }
     }
